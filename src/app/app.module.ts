@@ -7,10 +7,7 @@ import { HelloComponent } from './hello.component';
 import { HomeComponent } from './home/home.component';
 
 import {Routes,RouterModule} from '@angular/router';
-import { Home2Component } from './home2/home2.component';
-import { HinputComponent } from './hinput/hinput.component';
-import { HlistComponent } from './hlist/hlist.component';
-import { HeditComponent } from './hedit/hedit.component';
+import { Home2Component } from './home2/home2.component'
 
 const ROUTES:Routes = [
   {path:'home', component : HomeComponent},
