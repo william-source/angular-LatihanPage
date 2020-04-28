@@ -1,14 +1,10 @@
 <div>
-	<a routerLink='/home/4'>Home</a><br><br>
-	
-  <button (click)="Homedua()">HOME2</button>
-	<button (click)="Homepass()">HOME dengan param</button>
+	<a routerLink='/home'>path => home</a><br><br>
+	<!-- <a routerLink='/home/4'>path => home/:id</a><br><br>
+	<a routerLink='/tes'>tes</a><br><br>
+	<a routerLink='/home2'>tes</a><br><br> -->
+	<button (click)="Homedua()">HOME2</button>
+	<button (click)="Homepass()">HOME dengan param(home/:id)</button>
 </div>
-<br>
-<br>
-<br>
-
-<div>
-
-</div>
-<router-outlet></router-outlet>
+<!-- mengeluarkan output -->
+<router-outlet> </router-outlet>

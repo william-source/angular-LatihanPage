@@ -7,7 +7,7 @@ import {Router } from '@angular/router'
 })
 export class AppComponent  {
   name = 'Angular';
-
+  
   constructor(private router : Router) {}
   
   Homedua() {
