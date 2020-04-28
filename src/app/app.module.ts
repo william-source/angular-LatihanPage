@@ -21,7 +21,7 @@ const ROUTES:Routes = [
     FormsModule,
     RouterModule.forRoot(ROUTES) 
     ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, Home2Component, HinputComponent, HlistComponent, HeditComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, Home2Component],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
